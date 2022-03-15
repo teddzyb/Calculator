@@ -21,17 +21,17 @@ This is a simple Android & iOS calculator app made with Xamarin.Forms. The app i
 <summary>Traditional Calculator</summary>
 <br>
 <div style="display:flex">
-  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/modern-1.jpg?raw=true" style="height:500px"></img>
-  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/modern-2.jpg?raw=true" style="height:500px"></img>
+  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/traditional-1.jpg?raw=true" style="height:500px"></img>
+  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/traditional-2.jpg?raw=true" style="height:500px"></img>
 </div>
 </details>
 
 <details>
 <summary>Modern Calculator</summary>
 <br>
-<div style="display:flex">
-  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/traditional-1.jpg?raw=true" style="height:500px"></img>
-  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/traditional-2.jpg?raw=true" style="height:500px"></img>
+ <div style="display:flex">
+  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/modern-1.jpg?raw=true" style="height:500px"></img>
+  <img src="https://github.com/teddzyb/Calculator/blob/master/Screenshots/modern-2.jpg?raw=true" style="height:500px"></img>
 </div>
 </details>
 
