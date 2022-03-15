@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Android", "Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.iOS", "Calculator\Calculator.iOS\Calculator.iOS.csproj", "{0B206B6D-7D0E-48CE-B7AE-92564552EC85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator\Calculator.csproj", "{7265B8F5-D41C-478B-A357-653BA5036DEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator\Calculator.csproj", "{7265B8F5-D41C-478B-A357-653BA5036DEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,8 @@ Global
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|Any CPU.Deploy.0 = Release|Any CPU
 		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{78DEB439-1BD2-4D00-BC61-FFA5F7F804C4}.Debug|iPhone.Deploy.0 = Debug|Any CPU
