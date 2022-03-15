@@ -36,4 +36,4 @@ This is a simple Android & iOS calculator app made with Xamarin.Forms. The app i
 </details>
 
 ## Project Status
-v1.0 released (March 15, 2022)
+v0.1.0 released (March 15, 2022)
