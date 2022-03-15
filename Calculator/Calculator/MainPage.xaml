@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage"
+             xmlns:views="clr-namespace:Calculator.Views">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" Margin="0, 0, 20, 0">
+            <ImageButton x:Name="Calculator_Btn"
+                         Source="calculator_icon_grey.png"
+                         HeightRequest="26"
+                         HorizontalOptions="FillAndExpand"
+                         BackgroundColor="Transparent"
+                         Clicked="Calculator_Nav" />
+            <ImageButton x:Name="Midterm_Btn"
+                         Source="midterm_icon_active.png"
+                         HeightRequest="26"
+                         HorizontalOptions="FillAndExpand"
+                         BackgroundColor="Transparent"
+                         Clicked="Midterm_Nav" />
+            <ImageButton x:Name="Settings_Btn"
+                         Source="setting_icon_grey.png"
+                         HeightRequest="26"
+                         HorizontalOptions="FillAndExpand"
+                         BackgroundColor="Transparent"
+                         Clicked="Setting_Nav" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <views:MainCalculator x:Name="MainCalculator"
+                                  IsVisible="False"
+                                  VerticalOptions="EndAndExpand"
+                                  HorizontalOptions="CenterAndExpand"
+                                  Margin="0, 15" />
+
+            <views:MidtermCalculator x:Name="MidtermCalculator"
+                                     IsVisible="True"
+                                     VerticalOptions="EndAndExpand"
+                                     HorizontalOptions="CenterAndExpand" />
+
+            <views:SettingsPage x:Name="SettingsPage"
+                                IsVisible="False"
+                                VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="CenterAndExpand" />
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

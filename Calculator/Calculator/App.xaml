@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.App">
+
+    <Application.Resources>
+        
+        <!-- Application resource dictionary -->
+        <ResourceDictionary>
+            
+            <!-- Palette -->
+            <Color x:Key="primary-light-color">#f8f9fa</Color>
+            <Color x:Key="primary-dark-color">#222222</Color>
+
+            <Style ApplyToDerivedTypes="true" TargetType="NavigationPage">
+                <Setter x:Name="BarBackgroundColor" Property="BarBackgroundColor" Value="{StaticResource Key=primary-dark-color}"/>
+                <Setter x:Name="BarTextColor" Property="BarTextColor" Value="{StaticResource Key=primary-dark-color}"/>
+            </Style>
+
+            <Style ApplyToDerivedTypes="true" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource Key=primary-light-color}"/>
+            </Style>
+
+        </ResourceDictionary>
+        
+    </Application.Resources>
+
+</Application>
